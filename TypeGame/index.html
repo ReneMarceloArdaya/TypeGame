@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de Espacio</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      @font-face {
+        font-family: "GameInicio";
+        src: url("./font/GAME_glm.ttf") format("truetype");
+      }
+      @font-face {
+        font-family: "Enemy";
+        src: url("./font/SPACEBOY.TTF") format("truetype");
+      }
+    </style>
+  </head>
+  <body>
+    <audio id="background-music" loop autoplay>
+      <source src="./music/GameMusic.mp3" type="audio/mpeg">
+    </audio>
+    <script src="https://pixijs.download/release/pixi.js"></script>
+    <script type="module" src="./Clases.js"></script>
+    <script type="module" src="./Game.js"></script>
+  </body>
+</html>
